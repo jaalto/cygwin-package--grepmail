@@ -1,0 +1,7 @@
+sdesc: "search mailboxes for mail matching an expression"
+ldesc: "Look for mail messages containing a pattern, and print the resulting
+messages. Usage is very similar to grep. It can handle compressed
+mailbox files, and can search the header or body of emails. It also
+supports searches constrained by date and size."
+category: Mail Perl
+requires: cygwin perl

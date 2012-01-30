@@ -1,0 +1,26 @@
+From 8643d3f5dcaade8fce45173999fa04eeb3d7fdb8 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Fri, 30 Nov 2007 23:50:48 +0200
+Subject: [PATCH] Makefile: do not ask questions
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ Makefile.PL |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/Makefile.PL b/Makefile.PL
+index 7cbe614..73f3b93 100644
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -5,7 +5,7 @@ use strict;
+ use lib 'lib';
+ use inc::Module::Install;
+ 
+-Check_Custom_Installation();
++# Check_Custom_Installation();
+ 
+ print "\n", '-'x78, "\n\n";
+ 
+-- 
+1.5.3.GIT
+
