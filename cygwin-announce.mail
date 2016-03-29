@@ -1,8 +1,5 @@
--- Copyright (C) 2007-2008 Jari Aalto; Licenced under GPL v2 or later
-
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: grepmail 5.3033-2 -- search mailboxes for mail matching an expression
+Subject: Updated: grepmail 5.3033-3 -- search mailboxes for mail matching an expression
 
 PACKAGE DESCRIPTION
 ===================
@@ -18,7 +15,8 @@ supports searches constrained by date and size.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-No user visible changes, only Cygwin Perl packaging chnage. 
+No user visible changes. REbuild for Perl 5.22 without vendor etc.
+directories included.
 
 http://grepmail.sourceforge.net/CHANGES
 http://grepmail.cvs.sourceforge.net/grepmail/devel/CHANGES?revision=HEAD&view=markup

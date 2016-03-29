@@ -52,35 +52,29 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack grepmail--5.3033-1-src.tar.bz2
+  unpack grepmail-5.3033-3-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./grepmail*.sh all
 
 This will create:
-  grepmail--5.3033-1.tar.bz2
-  grepmail--5.3033-1-src.tar.bz2
+  grepmail-5.3033-3.tar.xz
+  grepmail-5.3033-3-src.tar.xz
 
 -------------------------------------------
 
 Files included in the binary distribution:
-
-/etc/postinstall/grepmail.sh
-/usr/bin/grepmail
-/usr/lib/perl5/site_perl/5.8/cygwin/auto/grepmail/.packlist
-/usr/share/doc/Cygwin/grepmail-5.3033.README
-/usr/share/doc/grepmail-5.3033/CHANGES
-/usr/share/doc/grepmail-5.3033/LICENSE
-/usr/share/doc/grepmail-5.3033/META.yml
-/usr/share/doc/grepmail-5.3033/README
-/usr/share/man/man1/grepmail.1.gz
-/usr/share/perl/cygwin-pods/grepmail.pod
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
 - Makefile.PL: Comment out Check_Custom_Installation()
+
+----- version 5.3033-3 -----
+- Perl 5.22 rebuild
+- Add delete.lst to delete unnecessary Perl verdor directories
 
 ----- version 5.3033-2 -----
 - Fix postinstall.sh
@@ -89,4 +83,4 @@ Port Notes:
 - Initial release 2007-11-30 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2008 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2016 Jari Aalto; Licenced under GPL v2 or later
