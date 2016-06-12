@@ -24,7 +24,7 @@ Signed-off-by: Jari Aalto <jari.aalto@cante.net>
 +{
 +    my @list;
 +
-+    for ( 'Mail::Mbox::MessageParser', 'Mail::Internet' )
++    for ('Mail::Mbox::MessageParser')
 +    {
 +        eval "use $_;" ;
 +        push @list, $_   if $@;  # Eval error
