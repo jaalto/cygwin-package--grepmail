@@ -12,12 +12,13 @@ Additional Perl CPAN modules needed. Run this command before starting the
 program:
 
   $ perl -MCPAN -e 'install $_ for @ARGV' \
-    Mail::Mbox::MessageParser Mail::Internet
+    Mail::Mbox::MessageParser
 
 Runtime requirements:
   perl
   perl-Date-Manip (Date::Manip)
   perl-TimeDate (Date::Parse)
+  perl-MailTools (Mail::Internet)
 
 Build requirements:
   perl
