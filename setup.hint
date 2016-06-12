@@ -5,4 +5,4 @@ messages. Usage is very similar to grep. It can handle compressed
 mailbox files, and can search the header or body of emails. It also
 supports searches constrained by date and size."
 category: Mail Perl
-requires: perl
+requires: perl perl-Date-Manip perl-TimeDate
