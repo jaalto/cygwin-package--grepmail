@@ -12,13 +12,16 @@ Additional Perl CPAN modules needed. Run this command before starting the
 program:
 
   $ perl -MCPAN -e 'install $_ for @ARGV' \
-    Date::Parse Mail::Mbox::MessageParser FileHandle::Unget
+    Mail::Mbox::MessageParser Mail::Internet
 
 Runtime requirements:
-  cygwin
+  perl
+  perl-Date-Manip (Date::Manip)
+  perl-TimeDate (Date::Parse)
 
 Build requirements:
-  cygwin
+  perl
+  quilt
 
 Canonical homepage:
   http://sourceforge.net/projects/grepmail
