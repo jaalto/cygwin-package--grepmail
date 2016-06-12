@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: grepmail 5.3033-3 -- search mailboxes for mail matching an expression
+Subject: Updated: grepmail 5.3033-4 -- search mailboxes for mail matching an expression
 
 PACKAGE DESCRIPTION
 ===================
@@ -15,8 +15,7 @@ supports searches constrained by date and size.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-No user visible changes. REbuild for Perl 5.22 without vendor etc.
-directories included.
+Packaging: switch to using Cygwin perl-* modules.
 
 http://grepmail.sourceforge.net/CHANGES
 http://grepmail.cvs.sourceforge.net/grepmail/devel/CHANGES?revision=HEAD&view=markup
