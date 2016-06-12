@@ -8,17 +8,12 @@ messages. Usage is very similar to grep. It can handle compressed
 mailbox files, and can search the header or body of emails. It also
 supports searches constrained by date and size.
 
-Additional Perl CPAN modules needed. Run this command before starting the
-program:
-
-  $ perl -MCPAN -e 'install $_ for @ARGV' \
-    Mail::Mbox::MessageParser
-
 Runtime requirements:
   perl
   perl-Date-Manip (Date::Manip)
   perl-TimeDate (Date::Parse)
   perl-MailTools (Mail::Internet)
+  perl-Mail-Box (Mail::Mbox::MessageParser)
 
 Build requirements:
   perl
