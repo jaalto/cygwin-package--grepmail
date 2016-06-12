@@ -6,13 +6,11 @@ Subject: [PATCH] grepmail: Add CPAN check
 Signed-off-by: Jari Aalto <jari.aalto@cante.net>
 ---
  grepmail |   23 +++++++++++++++++++++--
- 1 files changed, 21 insertions(+), 2 deletions(-)
+ 1 file changed, 21 insertions(+), 2 deletions(-)
 
-diff --git a/grepmail b/grepmail
-index 97fd4a5..84ffcd6 100644
 --- a/grepmail
 +++ b/grepmail
-@@ -31,10 +31,29 @@ use vars qw( %opts $commandLine $VERSION %message_ids_seen
+@@ -31,10 +31,29 @@ use vars qw( %opts $commandLine $VERSION
  use Getopt::Std;
  
  use strict;
@@ -26,7 +24,7 @@ index 97fd4a5..84ffcd6 100644
 +{
 +    my @list;
 +
-+    for ( 'Mail::Mbox::MessageParser', 'FileHandle' )
++    for ( 'Mail::Mbox::MessageParser', 'Mail::Internet' )
 +    {
 +        eval "use $_;" ;
 +        push @list, $_   if $@;  # Eval error
@@ -44,6 +42,3 @@ index 97fd4a5..84ffcd6 100644
  # Set to 1 to enable caching capability
  $USE_CACHING = 1;
  
--- 
-1.5.3.GIT
-
