@@ -52,15 +52,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack grepmail-5.3033-5-src.tar.bz2
+  unpack grepmail-5.3033-7-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./grepmail*.sh all
 
 This will create:
-  grepmail-5.3033-5.tar.xz
-  grepmail-5.3033-5-src.tar.xz
+  grepmail-5.3033-7.tar.xz
+  grepmail-5.3033-7-src.tar.xz
 
 -------------------------------------------
 
@@ -71,6 +71,13 @@ Files included in the binary distribution:
 
 Port Notes:
 - Makefile.PL: Comment out Check_Custom_Installation()
+
+----- version 5.3033-7 -----
+- New upstream release 2021-03-06 Jari Aalto
+- Rebuild perl 5.32
+
+----- version 5.3033-6 -----
+- New upstream release 2020-05-05 Jari Aalto
 
 ----- version 5.3033-5 -----
 - Rebuild for Perl 5.30.2
@@ -89,4 +96,4 @@ Port Notes:
 - Initial release 2007-11-30 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2020 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2021 Jari Aalto; Licenced under GPL v2 or later
